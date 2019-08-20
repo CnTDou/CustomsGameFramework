@@ -2,8 +2,8 @@
 <UnityGameFramework>
   <AssetBundleBuilder>
     <Settings>
-      <InternalResourceVersion>0</InternalResourceVersion>
-      <Platforms>1</Platforms>
+      <InternalResourceVersion>1</InternalResourceVersion>
+      <Platforms>0</Platforms>
       <ZipSelected>True</ZipSelected>
       <UncompressedAssetBundleSelected>False</UncompressedAssetBundleSelected>
       <DisableWriteTypeTreeSelected>False</DisableWriteTypeTreeSelected>
@@ -15,8 +15,9 @@
       <OutputPackageSelected>True</OutputPackageSelected>
       <OutputFullSelected>False</OutputFullSelected>
       <OutputPackedSelected>False</OutputPackedSelected>
-      <BuildEventHandlerTypeName>StarForce.Editor.StarForceBuildEventHandler</BuildEventHandlerTypeName>
-      <OutputDirectory></OutputDirectory>
+      <BuildEventHandlerTypeName>UnityGameFramework.Editor.CustomsBuildEventHandler</BuildEventHandlerTypeName>
+      <OutputDirectory>
+      </OutputDirectory>
     </Settings>
   </AssetBundleBuilder>
 </UnityGameFramework>
