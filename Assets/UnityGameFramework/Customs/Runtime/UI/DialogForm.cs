@@ -130,9 +130,9 @@ namespace UnityGameFramework
         }
 
 #if OVERRIDE_NO_INTERNAL
-        protected override void OnClose(object userData)
+        protected override void OnClose(bool isShutdown, object userData)
 #else
-        protected internal override void OnClose(object userData)
+        protected internal override void OnClose(bool isShutdown, object userData) 
 #endif
         {
             if (m_PauseGame)
@@ -155,7 +155,7 @@ namespace UnityGameFramework
             RefreshOtherText(string.Empty);
             m_OnClickOther = null;
 
-            base.OnClose(userData);
+            base.OnClose(isShutdown, userData);
         }
 
         private void RefreshDialogMode()

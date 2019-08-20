@@ -121,13 +121,13 @@ namespace UnityGameFramework
         }
 
 #if OVERRIDE_NO_INTERNAL
-        protected override void OnClose(object userData)
+        protected override void OnClose(bool isShutdown, object userData) 
 #else
         protected internal override void OnClose(object userData)
 #endif
         {
-            base.OnClose(userData);
-        }
+            base.OnClose(isShutdown, userData);
+    }
 
 #if OVERRIDE_NO_INTERNAL
         protected override void OnPause()

@@ -62,12 +62,12 @@ namespace UnityGameFramework
         }
 
 #if OVERRIDE_NO_INTERNAL
-        protected override void OnHide(object userData)
+        protected override void OnHide(bool isShutdown, object userData)
 #else
-        protected internal override void OnHide(object userData)
+        protected internal override void OnHide(bool isShutdown, object userData)
 #endif
         {
-            base.OnHide(userData);
+            base.OnHide(isShutdown, userData); 
         }
 
 #if OVERRIDE_NO_INTERNAL
@@ -107,7 +107,7 @@ namespace UnityGameFramework
         }
 
 #if OVERRIDE_NO_INTERNAL
-        protected override void OnUpdate(float elapseSeconds, float realElapseSeconds) 
+        protected override void OnUpdate(float elapseSeconds, float realElapseSeconds)
 #else
         protected internal override void OnUpdate(float elapseSeconds, float realElapseSeconds)
 #endif
