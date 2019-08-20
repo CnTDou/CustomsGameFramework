@@ -1,0 +1,3 @@
+[submodule "Assets/UnityGameFramework/GameFramework"]
+	path = Assets/UnityGameFramework/GameFramework
+	url = https://github.com/ellanJiang/UnityGameFramework.git
