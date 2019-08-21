@@ -510,7 +510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EnableLoadDictionaryUpdateEvent: 0
   m_EnableLoadDictionaryDependencyAssetEvent: 0
-  m_LocalizationHelperTypeName: StarForce.XmlLocalizationHelper
+  m_LocalizationHelperTypeName: UnityGameFramework.Runtime.DefaultLocalizationHelper
   m_CustomLocalizationHelper: {fileID: 0}
 --- !u!4 &343730743
 Transform:
@@ -901,7 +901,7 @@ MonoBehaviour:
   m_InstanceRoot: {fileID: 1576232203}
   m_UIFormHelperTypeName: UnityGameFramework.Runtime.DefaultUIFormHelper
   m_CustomUIFormHelper: {fileID: 0}
-  m_UIGroupHelperTypeName: StarForce.UGuiGroupHelper
+  m_UIGroupHelperTypeName: UnityGameFramework.UGuiGroupHelper
   m_CustomUIGroupHelper: {fileID: 0}
   m_UIGroups:
   - m_Name: Default
@@ -1501,10 +1501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 879e921586721514f9f85de777050af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HPBarItemTemplate: {fileID: 11414536, guid: 96d2e77dd9853514da336717bd5627c0,
-    type: 2}
-  m_HPBarInstanceRoot: {fileID: 1454214587}
-  m_InstancePoolCapacity: 16
 --- !u!1 &1780656126
 GameObject:
   m_ObjectHideFlags: 0

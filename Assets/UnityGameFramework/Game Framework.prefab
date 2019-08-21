@@ -942,7 +942,7 @@ MonoBehaviour:
   m_InstanceRoot: {fileID: 224054792512255018}
   m_UIFormHelperTypeName: UnityGameFramework.Runtime.DefaultUIFormHelper
   m_CustomUIFormHelper: {fileID: 0}
-  m_UIGroupHelperTypeName: StarForce.UGuiGroupHelper
+  m_UIGroupHelperTypeName: UnityGameFramework.UGuiGroupHelper
   m_CustomUIGroupHelper: {fileID: 0}
   m_UIGroups:
   - m_Name: Default
@@ -998,7 +998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EnableLoadDictionaryUpdateEvent: 0
   m_EnableLoadDictionaryDependencyAssetEvent: 0
-  m_LocalizationHelperTypeName: StarForce.XmlLocalizationHelper
+  m_LocalizationHelperTypeName: UnityGameFramework.Runtime.DefaultLocalizationHelper
   m_CustomLocalizationHelper: {fileID: 0}
 --- !u!114 &114369647379932322
 MonoBehaviour:
@@ -1012,15 +1012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AvailableProcedureTypeNames:
-  - StarForce.ProcedureChangeScene
-  - StarForce.ProcedureCheckVersion
-  - StarForce.ProcedureLaunch
-  - StarForce.ProcedureMain
-  - StarForce.ProcedureMenu
-  - StarForce.ProcedurePreload
-  - StarForce.ProcedureSplash
-  - StarForce.ProcedureUpdateResource
-  m_EntranceProcedureTypeName: StarForce.ProcedureLaunch
+  - UnityGameFramework.ProcedureEmpty
+  m_EntranceProcedureTypeName: UnityGameFramework.ProcedureEmpty
 --- !u!114 &114394083777839356
 MonoBehaviour:
   m_ObjectHideFlags: 1
